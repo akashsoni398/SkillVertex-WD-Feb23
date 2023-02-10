@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        <link href="" />
+        <meta name="author" content="Akash Soni" />
+        <meta charset="utf-8" />
+        <style>
+            table,td,th {
+                border: 2px solid red;
+                text-align: center;
+            }
+        </style>
+        <script></script>
+    </head>
+    <body>
+        <!-- basic tags -->
+        Hello World<br>
+        Hello World
+        <hr>
+        <p>This is our first website</p>
+        <p>This is our first website</p>
+        <img src="images/logo.gif" alt="image" >
+        <audio controls>
+            <source src="" />
+        </audio>
+        <embed src="" type="">
+        <iframe></iframe>
+        
+        <p><span style="color: red;">HTML</span> stands for Hypertext Markup Language</p>
+
+        <!-- formatting tags -->
+        <b>Hello</b>
+        <i> this is </i>
+        <u>Akash</u>
+        <br />
+        <strong>Hello</strong>
+        <em> this is </em>
+        <ins aria-atomic=""> Akash</ins>
+
+        <br>
+        2<sup>2</sup>
+        <br>
+        <sub>3</sub>√2
+
+        <marquee direction="up"><center><p><span style="color: red;">HTML</span> stands for <mark>Hypertext <del>Marking</del><ins>Markup</ins> Language</mark></p></center></marquee>
+
+        <!-- heading tags -->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <!-- list tags -->
+        <ol type="I">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+            <li>List Item 5</li>
+            <li>List Item 6</li>
+        </ol>
+        <ul type="square">
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+        <dl>
+            <dt>HTML:</dt>
+            <dd>HTML stands for Hypertext markup Language</dd>
+        </dl>
+
+        <!-- table tags -->
+        
+        <table>
+            <colgroup>
+                <col />
+                <col span="2" style="background-color: aqua;" />
+            </colgroup>
+            <caption>Student Information</caption>
+            <tr>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Address</th>
+                <th rowspan="2">College</th>
+                <th colspan="3">Marks</th>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Semester 1</th>
+                <th>Semester 2</th>
+                <th>Semester 3</th>
+            </tr>
+            <tr>
+                <td>Akash</td>
+                <td>Soni</td>
+                <td>Bangalore</td>
+                <td>Jain University</td>
+                <td>89</td>
+                <td>89</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Akash</td>
+                <td>Soni</td>
+                <td>Bangalore</td>
+                <td>Jain University</td>
+                <td>89</td>
+                <td>89</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Akash</td>
+                <td>Soni</td>
+                <td>Bangalore</td>
+                <td>Jain University</td>
+                <td>89</td>
+                <td>89</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Akash</td>
+                <td>Soni</td>
+                <td>Bangalore</td>
+                <td>Jain University</td>
+                <td>89</td>
+                <td>89</td>
+                <td>89</td>
+            </tr>
+            <tr>
+                <td>Akash</td>
+                <td>Soni</td>
+                <td>Bangalore</td>
+                <td>Jain University</td>
+                <td>89</td>
+                <td>89</td>
+                <td>89</td>
+            </tr>
+        </table>
+
+
+        <!-- form tags -->
+        <label>Username</label>
+        <input type="text" />
+    
+        <form method="get" action="welcome.php">
+            <input type="text" />
+            <input type="submit" />
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <form>
+            <input />
+            <button></button>
+            <textarea></textarea>
+            <label>Hello</label>
+            <formgroup></formgroup>
+        </form>
+
+
+        <br><br>
+        <form method="post" action="welcome.php">
+            <input type="text" name="username">
+            <input type="email" name="email" />
+            <button type="submit">Login</button>
+        </form>
+
+        <form>
+        <fieldset>
+            <legend>HTML Input Tags:</legend>
+            <!--text fields-->
+            <input type="text" name="name_inp" id="name_txt" class="textbox" value="Hello" />
+            <input type="url" placeholder="Enter a URL" />
+            <input type="search" />
+            <input type="password" />
+            <input type="number" />
+            <input type="email" />
+            <textarea rows="10" cols="50"></textarea><br><br>
+
+            <!-- date/time -->
+            <input id="date-picker" type="date" name="date">
+            <input type="datetime-local">
+            <input type="datetime" >
+            <input type="month">
+            <input type="week">
+            <input type="time">
+            <input type=""><br><br>
+
+            <!--check box-->
+            <input name="chk1" type="checkbox">
+            <input name="chk2" type="checkbox">
+
+            <!-- radiobtn -->
+            <input name="gender" type="radio" value="male"><label>Male</label>
+            <input name="gender" type="radio" value="female"><label>Female</label>
+            <input name="gender" type="radio" value="others"><label>Others</label>
+
+            <!-- selectors -->
+            <input type="color">
+            <input type="file">
+            <input type="image" src="list.png" alt="Submit" width="48" height="48">
+            <input type="range" name="range" min="0" max="10">
+
+            <input type="button" />
+            <input type="submit" value="3234"/>
+            <input type="reset" />
+
+            <button type="submit">LOGIN</button>
+        </fieldset>
+        </form>
+    </body>
+</html>
