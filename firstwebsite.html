@@ -5,15 +5,35 @@
         <link href="" />
         <meta name="author" content="Akash Soni" />
         <meta charset="utf-8" />
+        
+        <link rel="stylesheet" href="./external.css" /> <!-- linked styles -->
+
+        <!-- embedded styles -->
         <style>
-            table,td,th {
-                border: 2px solid red;
-                text-align: center;
-            }
         </style>
+        
         <script></script>
     </head>
     <body>
+        <div id="john">
+            <div id="steve">
+                <div id="lee"></div>
+                <div id="bob"></div>
+                <div id="ella"></div>
+                <div id="ella"></div>
+                <div id="ella"></div>
+                <div id="ella"></div>
+            </div>
+            <div id="rohan">
+                <div id="sal"></div>
+                <div id="emma">
+                    <div id="tom">
+                        <div id="bill"></div>
+                    </div>
+                    <div id="raj"></div>
+                </div>
+            </div>
+        </div>
         <!-- basic tags -->
         Hello World<br>
         Hello World
@@ -28,6 +48,8 @@
         <iframe></iframe>
         
         <p><span style="color: red;">HTML</span> stands for Hypertext Markup Language</p>
+
+        <span style="color: red;">HTML</span><!-- inline style -->
 
         <!-- formatting tags -->
         <b>Hello</b>
@@ -174,13 +196,13 @@
         <fieldset>
             <legend>HTML Input Tags:</legend>
             <!--text fields-->
-            <input type="text" name="name_inp" id="name_txt" class="textbox" value="Hello" />
-            <input type="url" placeholder="Enter a URL" />
-            <input type="search" />
-            <input type="password" />
-            <input type="number" />
-            <input type="email" />
-            <textarea rows="10" cols="50"></textarea><br><br>
+            <input class="textbox" type="text" name="name_inp" id="name_txt" class="textbox" value="Hello" />
+            <input class="textbox" type="url" placeholder="Enter a URL" />
+            <input class="textbox" type="search" />
+            <input class="textbox" type="password" />
+            <input class="textbox" id="number-input" type="number" />
+            <input class="textbox" id="email-input" type="email" />
+            <textarea class="textbox" rows="10" cols="50"></textarea><br><br>
 
             <!-- date/time -->
             <input id="date-picker" type="date" name="date">

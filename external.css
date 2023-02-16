@@ -1,0 +1,92 @@
+body {
+    background-color: bisque;
+}
+span {
+    color: blue;
+    background-color:orchid;
+}  
+
+/* tag based selector*/
+input {
+    border: 2px solid slateblue;
+    display: block;
+    te
+}
+
+/* class based selector*/ 
+.textbox {
+    background-color: rgb(51, 153, 83);
+}
+
+/* id based selector*/ 
+#email-input {
+    font-weight: bold;
+}
+
+table,td,th {
+border: 2px solid rgba(70, 177, 130,0.5);
+}
+
+body * {
+    font-family: fantasy;
+}
+
+body img {
+    height: 50px;
+    table-layout: ;
+    d
+}
+
+a:visited {
+
+}
+a:hover {
+
+}
+a:active {
+
+}
+li {
+    list-style-position: ;
+    list-style:symbols()
+}
+div {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: bisque;
+}
+
+/* descendent selector */
+#john * {
+}
+
+/* child selector */
+#john > * {
+}
+
+/* sibling selector */
+#bob ~ * {
+}
+
+/* adjacent selector */
+#bob + * {
+    background-color: darkgoldenrod;
+}
+
+/* attribute selector */
+textarea[class="textbox"] {
+
+}
+textarea.textbox {
+
+}
+
+div[id="abc"] {
+
+}
+div#abc {
+    
+}
+
+
