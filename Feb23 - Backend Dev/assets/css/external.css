@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(244, 231, 197);
+}
+header {
+    background-color: #111;
+    text-align: right;
+}
+header>a {
+    color: white;
+    font-size: 15px;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: rgb(0, 128, 0);
+    border: none;
+}
+.dropdown-content {
+    position: absolute;
+    right: 0;
+    display: none;
+    white-space: nowrap;
+    background-color: #bfbfbf;
+    z-index: 10;
+}
+.dropdown-content a {
+    display: block;
+    color: #111;
+    padding: 15px 25px;
+    text-decoration: none;
+    
+}
+.dropdown-content a:hover {
+    background-color: #6d6d6d;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: darkgreen;
+}
+
+.branding {
+    position: relative;
+    background-color: #fac715;
+    height: 150px;
+    width: 100%;
+    z-index: 9;
+}
+img[src="./assets/images/logo.gif"] {
+    width: 20%;
+}
+.left-align {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.right-align {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.branding h1 {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    font-family: fantasy;
+    font-size: 75px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+.branding p {
+    position: absolute;
+    top: 90px;
+    left: 160px;
+    font-size: 16.1px;
+    white-space: nowrap;
+    font-weight: normal;
+}
+#searchbox {
+    position: relative;
+    margin-right: 40px;
+    margin-top:60px;
+}
+#searchbox input {
+    padding-left: 10px;
+    padding-right: 30px;
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+}
+#searchbox button {
+    position: absolute;
+    right: 0;
+    height: 30px; 
+    width: 30px;
+    background-color:#11111100;
+    border: none;
+}
+nav {
+    background-color: #333;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li {
+    list-style-type: none;
+}
+nav a {
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
